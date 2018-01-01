@@ -25,7 +25,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 //     }
 // }
 
-function test() {
+function test()
+{
     $return = [];
     for ($i=0; $i < 10000; $i++) {
         $return[] = $i;

@@ -26,8 +26,8 @@ trait Marco
         if (isset($this->marcos[$name])) {
             // TODO 回傳錯誤
             throw new Exception('name is invalid');
-        } else {
-            $this->marcos[$name] = $function;
         }
+
+        $this->marcos[$name] = $function;
     }
 }
